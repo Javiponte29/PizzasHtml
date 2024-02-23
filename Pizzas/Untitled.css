@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.group {
+	display: flex; 
+	justify-content: space-around; 
+	padding-top: 10rem;
+}
+
+@media (max-width: 760px) {
+	.group {
+		display: block;
+	}
+	.img-1 {
+		width: 40%;
+		height: auto;
+		margin: 3em 0em 0em 0em;
+	}
+	.img-2 {
+		width: 40%;
+		height: auto;
+		margin: -4em 0em 0em 0em;
+	}
+	.img-3 {
+		width: 40%;
+		height: auto;
+		margin: 1em 0em 0em 0em;
+	}
+	.plato {
+		text-align: center;
+		}
+	.pizza {
+		margin: auto; 
+		display: block;
+		width: 300px;
+		height: 300px;
+	}
+	p {
+		margin: 0em 2em;
+	}
+		.fondo-1 {
+		background-image: url(https://websitedemos.net/pizzeria-04/wp-content/uploads/sites/791/2021/03/pizzeria-template-hero-bg-img.jpg);max-width: 100vw; width: 100vw; min-height:860px; width: 100%; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); border-bottom-left-radius: 25%; border-bottom-right-radius: 25%; margin-bottom: -10rem;
+	}
+	.fondo-2 {
+		background-color: #f4f4f4; max-width: 100vw; width: 100vw; min-height:860px; width: 100%; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: -10rem;
+	}
+}
+@media (min-width: 760px) {
+	.plato {
+		text-align: center;
+}
+		.img-1 {
+	width: 50%;
+	height: auto;
+}
+		.img-2 {
+	width: 50%;
+	height: auto;
+}
+	.img-3 {
+	width: 60%;
+	height: auto;
+}
+	.pizza {
+	margin: auto; 
+	display: block; 
+	height: auto;
+}
+	.fondo-1 {
+		background-image: url(https://websitedemos.net/pizzeria-04/wp-content/uploads/sites/791/2021/03/pizzeria-template-hero-bg-img.jpg);max-width: 100vw; width: 100vw; min-height:860px; width: 100%; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); border-bottom-left-radius: 25%; border-bottom-right-radius: 25%; margin-bottom: -14rem;
+	}
+	.fondo-2 {
+		background-color: #f4f4f4; max-width: 100vw; width: 100vw; min-height:860px; width: 100%; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-top: -14rem;
+	}
+}
+
